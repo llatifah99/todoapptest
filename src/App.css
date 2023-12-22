@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #daa9dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.max-w-lg {
+  width: 100%;
+  max-width: 24rem;
+}
+
+.btn {
+  background-color: #a042a7;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border-color: #a042a7;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5e0674;
+  border-color: #5e0674;
+}
